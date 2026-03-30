@@ -1,9 +1,9 @@
 class ClaudeStatus < Formula
   desc "Live terminal dashboard for Claude service status"
   homepage "https://github.com/adversarydsgn/claude-status-terminal"
-  url "https://github.com/adversarydsgn/claude-status-terminal.git", tag: "v1.0.0"
+  url "https://github.com/adversarydsgn/claude-status-terminal/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "807c539100fb33dfd0e32179358753af15a747676d4d5c87811269c498a858ff"
   license "MIT"
-  head "https://github.com/adversarydsgn/claude-status-terminal.git", branch: "main"
 
   depends_on :macos
 
@@ -16,14 +16,12 @@ class ClaudeStatus < Formula
       Run the live dashboard:
         claude-status
 
-      For the menubar app (optional):
-        cd #{HOMEBREW_PREFIX}/share/claude-status && ./build.sh
-        See: https://github.com/adversarydsgn/claude-status-terminal#menubar-app
+      For the menubar app (optional), build from source:
+        https://github.com/adversarydsgn/claude-status-terminal#menubar-app
     EOS
   end
 
   test do
-    # Verify script exists and has the right structure
     assert_predicate bin/"claude-status", :executable?
   end
 end
