@@ -1,7 +1,7 @@
 class ClaudeStatus < Formula
   desc "Live terminal dashboard for Claude service status"
-  homepage "https://github.com/adversarydsgn/claude-status-terminal"
-  url "https://github.com/adversarydsgn/claude-status-terminal/archive/refs/tags/v1.0.0.tar.gz"
+  homepage "https://github.com/adversarydsgn/claude-status"
+  url "https://github.com/adversarydsgn/claude-status/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "807c539100fb33dfd0e32179358753af15a747676d4d5c87811269c498a858ff"
   license "MIT"
 
@@ -17,7 +17,7 @@ class ClaudeStatus < Formula
         claude-status
 
       For the menubar app (optional), build from source:
-        https://github.com/adversarydsgn/claude-status-terminal#menubar-app
+        https://github.com/adversarydsgn/claude-status#menubar-app
     EOS
   end
 
