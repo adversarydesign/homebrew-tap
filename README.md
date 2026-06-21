@@ -1,11 +1,11 @@
 # Adversary Homebrew Tap
 
-Homebrew formulae from [Adversary](https://github.com/adversarydsgn).
+Homebrew formulae from [Adversary](https://github.com/adversarydesign).
 
 ## Install
 
 ```bash
-brew tap adversarydsgn/tap
+brew tap adversarydesign/tap
 brew install claude-status
 ```
 
